@@ -1,9 +1,9 @@
-import React from 'react'
 import useGenres from '../hooks/useGenres'
 
 function GenreList() {
 
-    const {genres} = useGenres();
+    const {data:genres} = useGenres();
+
   return (
     <>
         <ul>
