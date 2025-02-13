@@ -11,3 +11,7 @@ export default axios.create({
     }
 })
 
+export interface FetchResponse<T> {
+    count: number;
+    results: T[];
+}
